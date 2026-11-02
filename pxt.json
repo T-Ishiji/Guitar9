@@ -1,0 +1,20 @@
+{
+    "name": "guitar-chord-v39-reverse-interrupt",
+    "version": "0.0.39",
+    "description": "Guitar chord extension for BBC micro:bit V2. Joystick P0 controls strum direction: 6/3V side=1-2-3, 4/GND side=3-2-1. Delay playback is interrupted immediately when buttons or joystick direction change.",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts",
+        "multitone.cpp"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
